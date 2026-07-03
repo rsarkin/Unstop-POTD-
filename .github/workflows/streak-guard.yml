@@ -1,0 +1,43 @@
+name: Streak Guard
+
+on:
+  schedule:
+    # Run every day at 23:00 UTC
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  check-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 10
+          
+      - name: Check for commits in the last 24 hours
+        id: check
+        run: |
+          # Get the timestamp of 24 hours ago
+          yesterday=$(date -d "24 hours ago" +%s)
+          # Get the timestamp of the latest commit
+          latest_commit=$(git log -1 --format=%ct)
+          
+          if [ "$latest_commit" -lt "$yesterday" ]; then
+            echo "has_commits=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_commits=true" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Open Issue if no commit
+        if: steps.check.outputs.has_commits == 'false'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --title "🚨 Streak Warning: No commit today!" \
+            --body "It looks like you haven't committed any daily challenge solution today. Don't lose your streak!"
