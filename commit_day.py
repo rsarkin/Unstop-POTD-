@@ -6,13 +6,10 @@ from datetime import datetime
 def update_root_readme(day_str, problem_name):
     readme_path = "README.md"
     if not os.path.exists(readme_path):
-        with open(readme_path, "w", encoding="utf-8") as f:
-            f.write("# Daily Coding Challenge Tracker\n\n")
-            f.write("| Day | Problem | Difficulty | Approach | Link |\n")
-            f.write("|---|---|---|---|---|\n")
+        pass # We assume it exists now, but just in case, we leave it alone or append normally
     
     with open(readme_path, "a", encoding="utf-8") as f:
-        f.write(f"| {day_str} | {problem_name} | TBA | TBA | TBA |\n")
+        f.write(f"| {day_str} | [{problem_name}](./day-{day_str}) |\n")
 
 def create_day_folder(day_num_str, problem_name):
     day_folder = f"day-{day_num_str}"
