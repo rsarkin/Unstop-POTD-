@@ -21,3 +21,4 @@ The goal isn't just to write code—it's about testing my consistency, pushing m
 | Day | Problem |
 |:---:|:---|
 | 01 | [Minimize the range of any k-length window](./day-01) |
+| 02 | [Valid Partition in Linked List](./day-02) |
