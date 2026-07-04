@@ -1,6 +1,6 @@
 <div align="center">
   
-# 🚀 Unstop 30 Days POTD Challenge 🚀
+#  Unstop 30 Days POTD Challenge 🚀
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Consistency](https://img.shields.io/badge/Consistency-Challenge-2ea44f?style=for-the-badge&logo=github&logoColor=white)]()
