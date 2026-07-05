@@ -3,21 +3,13 @@ import sys
 import subprocess
 from datetime import datetime
 
-def get_ordinal(n):
-    if 11 <= (n % 100) <= 13:
-        return str(n) + 'th'
-    return str(n) + {1: 'st', 2: 'nd', 3: 'rd'}.get(n % 10, 'th')
-
 def update_root_readme(day_str, problem_name):
     readme_path = "README.md"
     if not os.path.exists(readme_path):
         pass # We assume it exists now, but just in case, we leave it alone or append normally
     
-    now = datetime.now()
-    date_str = f"{get_ordinal(now.day)} {now.strftime('%B')}"
-    
     with open(readme_path, "a", encoding="utf-8") as f:
-        f.write(f"| {day_str} ({date_str}) | [{problem_name}](./day-{day_str}) |\n")
+        f.write(f"| {day_str} | [{problem_name}](./day-{day_str}) |\n")
 
 def create_day_folder(day_num_str, problem_name):
     day_folder = f"day-{day_num_str}"
