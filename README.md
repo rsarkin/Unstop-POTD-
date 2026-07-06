@@ -23,3 +23,4 @@ The goal isn't just to write code—it's about testing my consistency, pushing m
 | 01 | [Minimize the range of any k-length window](./day-01) |
 | 02 | [Valid Partition in Linked List](./day-02) |
 | 03 | [Cycle Detection & Chain Recovery in a Corrupted Linked List](./day-03) |
+| 04 | [Duplicate Detection in an Array](./day-04) |
