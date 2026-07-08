@@ -25,3 +25,4 @@ The goal isn't just to write code—it's about testing my consistency, pushing m
 | 03 | [Cycle Detection & Chain Recovery in a Corrupted Linked List](./day-03) |
 | 04 | [Duplicate Detection in an Array](./day-04) |
 | 05 | [Maximum Crystals with No Two Adjacent Chambers](./day-05) |
+| 06 | [Maximum Checkpoints with Minimum Distance Gap](./day-06) |
