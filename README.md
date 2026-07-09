@@ -26,3 +26,4 @@ The goal isn't just to write code—it's about testing my consistency, pushing m
 | 04 | [Duplicate Detection in an Array](./day-04) |
 | 05 | [Maximum Crystals with No Two Adjacent Chambers](./day-05) |
 | 06 | [Maximum Checkpoints with Minimum Distance Gap](./day-06) |
+| 07 | [Farthest City from the Capital](./day-07) |
