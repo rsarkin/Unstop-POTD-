@@ -27,3 +27,4 @@ The goal isn't just to write code—it's about testing my consistency, pushing m
 | 05 | [Maximum Crystals with No Two Adjacent Chambers](./day-05) |
 | 06 | [Maximum Checkpoints with Minimum Distance Gap](./day-06) |
 | 07 | [Farthest City from the Capital](./day-07) |
+| 08 | [Find the Unique Registration ID (XOR Trick)](./day-08) |
