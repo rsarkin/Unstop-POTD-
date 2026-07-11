@@ -28,3 +28,5 @@ The goal isn't just to write code—it's about testing my consistency, pushing m
 | 06 | [Maximum Checkpoints with Minimum Distance Gap](./day-06) |
 | 07 | [Farthest City from the Capital](./day-07) |
 | 08 | [Find the Unique Registration ID (XOR Trick)](./day-08) |
+| 09 | [Top of the Pile (Stack Simulation)](./day-09) |
+
