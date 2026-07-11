@@ -29,4 +29,4 @@ The goal isn't just to write code—it's about testing my consistency, pushing m
 | 07 | [Farthest City from the Capital](./day-07) |
 | 08 | [Find the Unique Registration ID (XOR Trick)](./day-08) |
 | 09 | [Top of the Pile (Stack Simulation)](./day-09) |
-
+| 10 | [Most Frequent Visitor ID (with Tie-Breaking)](./day-10) |
