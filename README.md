@@ -32,3 +32,5 @@ The goal isn't just to write code—it's about testing my consistency, pushing m
 | 10 | [Most Frequent Visitor ID (with Tie-Breaking)](./day-10) |
 | 11 | [Top K Dispatched Packages (Priority-Based Sorting)](./day-11) |
 | 12 | [Minimum Energy Path Across Relay Towers (Dynamic Programming)](./day-12) |
+| 13 | [Longest Reconstruction Chain (Longest Increasing Subsequence)](./day-13) |
+
