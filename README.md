@@ -33,4 +33,4 @@ The goal isn't just to write code—it's about testing my consistency, pushing m
 | 11 | [Top K Dispatched Packages (Priority-Based Sorting)](./day-11) |
 | 12 | [Minimum Energy Path Across Relay Towers (Dynamic Programming)](./day-12) |
 | 13 | [Longest Reconstruction Chain (Longest Increasing Subsequence)](./day-13) |
-
+| 14 | [Mirror Mode — Reverse Each Row of a Grid](./day-14) |

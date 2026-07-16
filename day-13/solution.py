@@ -39,7 +39,6 @@ def longest_chain_simple(scores):
         for j in range(i):
             if scores[j] < scores[i]:
                 dp[i] = max(dp[i], dp[j] + 1)
-
     return max(dp)
 
 
