@@ -34,3 +34,4 @@ The goal isn't just to write code—it's about testing my consistency, pushing m
 | 12 | [Minimum Energy Path Across Relay Towers (Dynamic Programming)](./day-12) |
 | 13 | [Longest Reconstruction Chain (Longest Increasing Subsequence)](./day-13) |
 | 14 | [Mirror Mode — Reverse Each Row of a Grid](./day-14) |
+| 15 | [Minimum Dream-Energy for Tapestry Weaving (Matrix Chain Multiplication)](./day-15) |
