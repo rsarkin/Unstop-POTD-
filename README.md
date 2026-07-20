@@ -35,3 +35,5 @@ The goal isn't just to write code—it's about testing my consistency, pushing m
 | 13 | [Longest Reconstruction Chain (Longest Increasing Subsequence)](./day-13) |
 | 14 | [Mirror Mode — Reverse Each Row of a Grid](./day-14) |
 | 15 | [Minimum Dream-Energy for Tapestry Weaving (Matrix Chain Multiplication)](./day-15) |
+| 16 | [Lantern Ceiling Commands (Segment Tree Beats — Range Chmin + Range Sum)](./day-16) |
+| 17 | [Minimum Announcers (Strongly Connected Components + Source Counting)](./day-17) |
