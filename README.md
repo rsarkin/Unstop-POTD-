@@ -38,4 +38,6 @@ The goal isn't just to write code—it's about testing my consistency, pushing m
 | 16 | [Lantern Ceiling Commands (Segment Tree Beats — Range Chmin + Range Sum)](./day-16) |
 | 17 | [Minimum Announcers (Strongly Connected Components + Source Counting)](./day-17) |
 | 18 | [Synchronized Drums (GCD / LCM)](./day-18) |
+| 19 | [Chamber Recovery Sequence (Binary Search Tree + Postorder Traversal)](./day-19) |
+
 
