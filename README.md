@@ -41,3 +41,4 @@ The goal isn't just to write code—it's about testing my consistency, pushing m
 | 19 | [Chamber Recovery Sequence (Binary Search Tree + Postorder Traversal)](./day-19) |
 
 
+| 20 | [Bridge Waiting Line (Queue Simulation)](./day-20) |
