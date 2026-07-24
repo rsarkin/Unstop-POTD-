@@ -42,3 +42,4 @@ The goal isn't just to write code—it's about testing my consistency, pushing m
 | 20 | [Bridge Waiting Line (Queue Simulation)](./day-20) |
 | 21 | [Relay Network Restoration (Travelling Salesman Problem — Bitmask DP)](./day-21) |
 | 22 | [Emergency Alert Propagation (Binary Search Tree + Level Order Traversal)](./day-22) |
+| 23 | [Sacred Crystal Guardian Pairing (Bitmask DP — Maximum Weight Perfect Matching)](./day-23) |
